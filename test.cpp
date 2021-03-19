@@ -80,18 +80,18 @@ myFunc(a)
 
 
 
-main()
-{
-    const BUF_SIZE = 512
-    const index = 0
-    const speed = 9600
-    new ioBaf{BUF_SIZE}
-    new bufBite
-    const size = 5
-    new buf{size} = "Hello"
+// main()
+// {
+//     const BUF_SIZE = 512
+//     const index = 0
+//     const speed = 9600
+//     new ioBaf{BUF_SIZE}
+//     new bufBite
+//     const size = 5
+//     new buf{size} = "Hello"
 
-    PortInit(index, speed, BUF_SIZE)
-    PortWrite(index, buf[], size)
-    PortRead(index, bufBite, timeout)
+//     PortInit(index, speed, BUF_SIZE)
+//     PortWrite(index, buf[], size)
+//     PortRead(index, bufBite, timeout)
 
-}
+// }
