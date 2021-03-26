@@ -46,7 +46,7 @@ main()
     new res = myFunc(c)
     if (res != 0) //Проверка возвращенного значения
     {
-        Diagnostics("%d %d - Нечетное число", a)
+        Diagnostics("%d - Нечетное число", a)
     }
     else
     {
@@ -54,7 +54,7 @@ main()
     }
 }
 
-myFunc(a)
+myFunc(a{})
 {
     new b = 1
     if (a%2 == 0) //Проверка четности
